@@ -1,9 +1,11 @@
 import React from "react";
+import Navigation from "../components/Navigation";
 
 const Portfolio = () =>{
   return(
     <div>
-        erreur
+      <Navigation/>
+        mon Portfolio
     </div>
   )
 }
