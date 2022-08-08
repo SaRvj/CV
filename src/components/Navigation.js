@@ -14,30 +14,45 @@ const Navigation = () =>{
             <div className="navigation">
                 <ul>
                     <li>
-                        <NavLink exact to="/" activeclassName="navActive" >
+                        <NavLink exact to="/" activeClassName="navActive" >
                             <i className="fas fa-home"></i>
                             <span>Accueil</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/compétences" activeclassName="navActive" >
+                        <NavLink exact to="/compétences" activeClassName="navActive" >
                             <i className="fas fa-mountain"></i>
                             <span>Compétences</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/" activeclassName="navActive" >
+                        <NavLink exact to="/" activeClassName="navActive" >
                             <i className="fas fa-images"></i>
                             <span>Portfolio</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/" activeclassName="navActive" >
+                        <NavLink exact to="/" activeClassName="navActive" >
                             <i className="fas fa-address-book"></i>
                             <span>Contact</span>
                         </NavLink>
                     </li>
                 </ul>
+            </div>
+
+            <div className="socialNetwork">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/satranaravelojaona" target="blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/SaRvj" target="blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+                    </li>
+                </ul>
+                <div className="signature">
+                    <p>satranaravelojaona - 2022</p>
+                </div>
+        
             </div>
         </div>
 
