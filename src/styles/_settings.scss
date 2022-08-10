@@ -42,3 +42,30 @@ button {
 li {
     list-style-type: none;
 }
+
+a {
+    text-decoration: none;
+    color: $black;
+    cursor: pointer;
+}
+
+a:visited {
+    color: $black;
+}
+
+.home, .knowledge, .portfolio, .contact {
+    display: flex;
+
+    @media screen and (max-width: 850px) {
+        display: block !important;
+
+    }
+}
+
+.homeContent, .knowledgeContent, .portfolioContent, .contanctContent {
+    margin-left: .4rem;
+
+    @media screen and (max-width: 850px){
+        margin-left: 0 !important;
+    }
+}
