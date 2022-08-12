@@ -5,7 +5,7 @@ const Knowledges = () =>{
   return(
     <div>
       <Navigation/>
-        ma page d'accueil
+        mes compétences
     </div>
   )
 }
