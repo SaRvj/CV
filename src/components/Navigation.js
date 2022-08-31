@@ -20,7 +20,7 @@ const Navigation = () =>{
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/compétences" className="navActive" >
+                        <NavLink exact to="/competences" className="navActive" >
                             <i className="fas fa-mountain"></i>
                             <span>Compétences</span>
                         </NavLink>

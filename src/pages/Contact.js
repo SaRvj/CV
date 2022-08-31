@@ -8,6 +8,6 @@ const Contact = () =>{
     mes contacts
     </div>
   )
-}
+};
 
 export default Contact;

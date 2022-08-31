@@ -8,6 +8,6 @@ const Portfolio = () =>{
         mon Portfolio
     </div>
   )
-}
+};
 
 export default Portfolio;
