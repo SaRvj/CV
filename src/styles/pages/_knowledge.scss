@@ -57,7 +57,7 @@
                     width: 36%;
                     
                     &:nth-child(2){
-                        text-align: right;
+                        text-align: center;
                         width: 20%;
                     } 
                     &:nth-child(3){
@@ -108,7 +108,7 @@
                 }
             }
         }
-        
+
         .experience {
             grid-area: E;
             margin: 0 0 .5rem .5rem;
