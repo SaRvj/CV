@@ -21,6 +21,7 @@ export default class ProjectList extends Component {
                         projects.map(item => {
                             return(
                                 <Project 
+                                    key={item.id}
                                     item={item}
                                 />
                             )
