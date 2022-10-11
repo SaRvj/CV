@@ -47,7 +47,9 @@ export default class ProjectList extends Component {
 
                 <div className="projects">
                     {
-                        projects.map(item => {
+                        projects
+                            .filter(item => item.languages.includes(selectedRadio))
+                            .map(item => {
                             return(
                                 <Project 
                                     key={item.id}
