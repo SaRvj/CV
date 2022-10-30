@@ -35,6 +35,18 @@ const Contact = () =>{
             </li>
           </ul>
         </div>
+        <div className="socialNetwork">
+          <ul>
+            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+              <h4>LinkedIn</h4>
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+              <h4>Github</h4>
+              <i className="fab fa-github"></i>
+            </a>
+          </ul>
+        </div>
       </div>
     </div>
   )
