@@ -30,27 +30,54 @@ export const portfolioData = [
     id: 4,
     name: 'FishEye',
     languages: ['javascript','html','css'],
-    languagesIcons: ['fab fa-js','fab fa-html','fab fa-css3-alt'],
+    languagesIcons: ['fab fa-js','fab fa-html5','fab fa-css3-alt'],
     source: 'https://github.com/SaRvj/SatranaRavelojaona_6_13072021',
     info: 'FishEye est un site qui permet aux photographers indépendants de présenter leurs meilleurs travaux. Ce site combine l\'utilisation de HTML, SASS et Javascript afin de créer un site entièrement fonctionnelle, qui respecte également les conventions d\'accessibilité permettant ainsi de faciliter la navigation pour les utilisateurs d\'outils de navigation spécialisées.',
     picture: './media/project4.JPG'
   },
   {
     id: 5,
-    name: 'repudiante.com',
-    languages: ['javascript','css'],
-    languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    name: 'Les petits plats',
+    languages: ['javascript','html','css'],
+    languagesIcons: ['fab fa-js','fab fa-html5', 'fab fa-css3-alt'],
+    source: 'https://github.com/SaRvj/SatranaRavelojaona_7_13072021',
+    info: 'Après avoir édité des livres de cuisine pendant plusieurs années, l\'entreprise "Les petits plats" a décidé de se lancer dans un nouveau projet: réaliser son propre site de recette de cuisine à l\'instar de MArmiton et 750g. Ce projet se consiste à comprendre les complexités algorithmiques liées à l\'utilisation des fonctions de Javascript.',
     picture: './media/project5.JPG'
   },
   {
     id: 6,
-    name: 'test.io',
-    languages: ['javascript','react', 'css'],
-    languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project6.JPG'
+    name: 'Billed',
+    languages: ['javascript','html','css'],
+    languagesIcons: ['fab fa-js','fab fa-html5','fab fa-css3-alt'],
+    source: 'https://github.com/SaRvj/SatranaRavelojaona_9_13072021/tree/main',
+    info: 'Billed est une entreprise qui produit des solutions SAAS destinées aux équipes des RH. Ce projet introduit à la mise en place de différents test (unitaire, intégration, end-to-end) avec JEST. Ce projet introduit également au débogage d\'une application web avec Chrome debugger.',
+    picture: './media/project6.png'
+  },
+  {
+    id: 7,
+    name: 'Kasa',
+    languages: ['javascript','html','css','react'],
+    languagesIcons: ['fab fa-js','fab fa-html5','fab fa-css3-alt', 'fab fa-react'],
+    source: 'https://github.com/SaRvj/SatranaRavelojaona_11_13072021/tree/main/kasa',
+    info: 'Kasa est dans le métier de location d\'appartement entre particulier depuis 10 ans. Avec plus de 500 annonces postées chaque jour , Kasa fait partie des leaders de la location d\'appartement entre particuliers en France. Ce projet introduit l\'utilisation de React qui permet de créer des composants réutilisables, ainsi que React Router qui permet de naviquer entre les différents pages.',
+    picture: './media/project7.JPG'
+  },
+  {
+    id: 8,
+    name: 'Sportsee',
+    languages: ['javascript','html','css','react'],
+    languagesIcons: ['fab fa-js','fab fa-html5','fab fa-css3-alt', 'fab fa-react'],
+    source: 'https://github.com/SaRvj/SatranaRavelojaona_12_13072021',
+    info: 'Sportsee est un startup centré sur le coaching sportif, les utilisateurs de l\'application peuvent recevoir des conseils personalisés d\'un coach. Ce projet introduit l\'utilisation de Rechart, une bibliothèque utilisée pour créer des graphiques construite avec React et D3, ainsi que l\'utilisation de la gestion d\'état (Hook).',
+    picture: './media/project8.png'
+  },
+  {
+    id: 9,
+    name: 'Billed',
+    languages: ['javascript','html','css','react'],
+    languagesIcons: ['fab fa-js','fab fa-html5','fab fa-css3-alt', 'fab fa-react'],
+    source: 'https://github.com/SaRvj/SatranaRavelojaona_13_13072021',
+    info: 'ArgentBank est une banque nouvellement créée qui a besoin d\'un site web réactif pour ses clients. Ce projet présente l\'utilisation de MongoDB, un programme de base de données. Il se concentre sur la façon d\'accéder à un ebase de données et de modifier son contenu à l\'aide des méthodes Redux et CRUD. Dans ce cas, le nom de l\'utilisateur peut être modifié dans la page de profil et sera mis à jour dans la base de données. Ce projet inclut également la lecture, l\'utilisation et l\'écriture de Swagger à des fins de documentation.',
+    picture: './media/project9.png'
   },
 ]
